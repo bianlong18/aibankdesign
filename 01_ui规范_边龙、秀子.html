@@ -1,0 +1,489 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>01_UI规范_边龙、秀子</title>
+    <base href="./">
+    <meta id="root-path" root-path="./">
+    <link rel="icon" sizes="96x96" href="https://publish-01.obsidian.md/access/f786db9fac45774fa4f0d8112e232d67/favicon-96x96.png">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=yes,minimum-scale=1,maximum-scale=5">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="lib/styles/obsidian-styles.css">
+    <link rel="stylesheet" href="lib/styles/theme.css">
+    <link rel="stylesheet" href="lib/styles/plugin-styles.css">
+    <link rel="stylesheet" href="lib/styles/snippets.css">
+    <link rel="stylesheet" href="lib/styles/generated-styles.css">
+    <style></style>
+    <script type="module" src="lib/scripts/graph_view.js"></script>
+    <script src="lib/scripts/graph_wasm.js"></script>
+    <script src="lib/scripts/tinycolor.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.2.4/pixi.min.js" integrity="sha512-Ch/O6kL8BqUwAfCF7Ie5SX1Hin+BJgYH4pNjRqXdTEqMsis1TUYg+j6nnI9uduPjGaj7DN4UKCZgpvoExt6dkw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="lib/scripts/webpage.js"></script>
+    <script src="lib/scripts/generated.js"></script>
+</head>
+
+<body class="theme-dark mod-macos native-scrollbars blank-line-tweak outline-tweak seamless-embed increase-paragraph-gap increase-headings-gap bigger-math-font full-width-table loading">
+    <div class="webpage-container">
+        <div class="sidebar-left sidebar">
+            <div class="sidebar-container">
+                <div class="sidebar-sizer">
+                    <div class="sidebar-content-positioner">
+                        <div class="sidebar-content">
+                            <div><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle">
+                                    <div class="toggle-background"></div>
+                                </label></div>
+                            <div class="tree-container file-tree mod-nav-indicator" data-depth="0">
+                                <div class="tree-header"><span class="sidebar-section-header">百信设计</span><button class="clickable-icon collapse-tree-button is-collapsed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div>
+                                <div class="tree-scroll-area">
+                                    <div class="tree-item mod-tree-file" data-depth="1">
+                                        <div class="tree-item-contents"><a class="internal-link tree-item-link" href="01_ui规范_边龙、秀子.html"><span class="tree-item-title">01_UI规范_边龙、秀子</span></a></div>
+                                        <div class="tree-item-children"></div>
+                                    </div>
+                                    <div class="tree-item mod-tree-file" data-depth="1">
+                                        <div class="tree-item-contents"><a class="internal-link tree-item-link" href="02_ui体验_秀子、边龙.html"><span class="tree-item-title">02_UI体验_秀子、边龙</span></a></div>
+                                        <div class="tree-item-children"></div>
+                                    </div>
+                                    <div class="tree-item mod-tree-file" data-depth="1">
+                                        <div class="tree-item-contents"><a class="internal-link tree-item-link" href="03_ui组件_美彤.html"><span class="tree-item-title">03_UI组件_美彤</span></a></div>
+                                        <div class="tree-item-children"></div>
+                                    </div>
+                                    <div class="tree-item mod-tree-file" data-depth="1">
+                                        <div class="tree-item-contents"><a class="internal-link tree-item-link" href="04_运营规范_孟琦、杨帆.html"><span class="tree-item-title">04_运营规范_孟琦、杨帆</span></a></div>
+                                        <div class="tree-item-children"></div>
+                                    </div>
+                                    <div class="tree-item mod-tree-file" data-depth="1">
+                                        <div class="tree-item-contents"><a class="internal-link tree-item-link" href="05_运营组件_杨帆、孟琦.html"><span class="tree-item-title">05_运营组件_杨帆、孟琦</span></a></div>
+                                        <div class="tree-item-children"></div>
+                                    </div>
+                                    <div class="tree-item mod-tree-file" data-depth="1">
+                                        <div class="tree-item-contents"><a class="internal-link tree-item-link" href="06_运营复盘_边龙、孟琦.html"><span class="tree-item-title">06_运营复盘_边龙、孟琦</span></a></div>
+                                        <div class="tree-item-children"></div>
+                                    </div>
+                                    <div class="tree-item mod-tree-file" data-depth="1">
+                                        <div class="tree-item-contents"><a class="internal-link tree-item-link" href="index.html"><span class="tree-item-title">index</span></a></div>
+                                        <div class="tree-item-children"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar-gutter">
+                <div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon">
+                        <path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path>
+                        <path d="M10 4V20"></path>
+                        <path d="M4 7H7"></path>
+                        <path d="M4 10H7"></path>
+                        <path d="M4 13H7"></path>
+                    </svg></div>
+            </div>
+        </div>
+        <div class="document-container show">
+            <div class="markdown-preview-view markdown-rendered node-insert-event is-readable-line-width show-indentation-guide allow-fold-lists show-properties" style="tab-size:4">
+                <style id="MJX-CHTML-styles"></style>
+                <div class="markdown-preview-sizer markdown-preview-section" style="min-height:4335px">
+                    <div class="markdown-preview-pusher" style="width:1px;height:.1px;margin-bottom:0"></div>
+                    <div class="mod-header">
+                        <div class="inline-title" data-heading="01_UI规范_边龙、秀子" id="01_UI规范_边龙、秀子" style="display:block">01_UI规范_边龙、秀子</div>
+                    </div>
+                    
+                    <div class="heading-wrapper">
+                        <h2 data-heading="色彩" class="heading" id="色彩">
+                            <div class="heading-before"></div>
+                            <div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle" style="width:24px;max-width:100%">
+                                    <path d="M3 8L12 17L21 8"></path>
+                                </svg></div>色彩<div class="heading-after">...</div>
+                        </h2>
+                        <div class="heading-children">
+                            <div class="heading-wrapper">
+                                <h3 data-heading="主题色" class="heading" id="主题色">
+                                    <div class="heading-before"></div>
+                                    <div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle" style="width:24px;max-width:100%">
+                                            <path d="M3 8L12 17L21 8"></path>
+                                        </svg></div>主题色<div class="heading-after">...</div>
+                                </h3>
+                                <div class="heading-children">
+                                    <div>
+                                        <p>字体颜色样式样式：c-b1、c-o2等；背景填充样式：bg-b1、bg-o2等<br>界面强调色优先使用蓝色作为强调主色，橙色应用在少数跟蓝色区分、或需要突出活动性质的场景下<br><span alt="UI设计_主题色.png" src="image/ui设计_主题色.png" class="internal-embed media-embed image-embed is-loaded"><img alt="UI设计_主题色.png" src="image/ui设计_主题色.png"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="heading-wrapper">
+                                <h3 data-heading="中性色" class="heading" id="中性色">
+                                    <div class="heading-before"></div>
+                                    <div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle" style="width:24px;max-width:100%">
+                                            <path d="M3 8L12 17L21 8"></path>
+                                        </svg></div>中性色<div class="heading-after">...</div>
+                                </h3>
+                                <div class="heading-children">
+                                    <div>
+                                        <p>用于元素背景、边框、蒙层的填充使用，可以在sketch图层样式库中调用<br><span alt="UI设计_填充色.png" src="image/ui设计_填充色.png" class="internal-embed media-embed image-embed is-loaded"><img alt="UI设计_填充色.png" src="image/ui设计_填充色.png"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="heading-wrapper">
+                                <h3 data-heading="字体颜色" class="heading" id="字体颜色">
+                                    <div class="heading-before"></div>
+                                    <div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle" style="width:24px;max-width:100%">
+                                            <path d="M3 8L12 17L21 8"></path>
+                                        </svg></div>字体颜色<div class="heading-after">...</div>
+                                </h3>
+                                <div class="heading-children">
+                                    <div>
+                                        <p>字体颜色灰度等级分为4级，氛围标题、正文、辅助文字、其他以及反白颜色<br><span alt="UI设计_文字色.png" src="image/ui设计_文字色.png" class="internal-embed media-embed image-embed is-loaded"><img alt="UI设计_文字色.png" src="image/ui设计_文字色.png"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="heading-wrapper">
+                        <h2 data-heading="字体系统" class="heading" id="字体系统">
+                            <div class="heading-before"></div>
+                            <div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle" style="width:24px;max-width:100%">
+                                    <path d="M3 8L12 17L21 8"></path>
+                                </svg></div>字体系统<div class="heading-after">...</div>
+                        </h2>
+                        <div class="heading-children">
+                            <div>
+                                <p>界面UI中文字体使用系统默认字体，金融数字使用百信专属品牌字体aibank</p>
+                            </div>
+                            <div class="heading-wrapper">
+                                <h3 data-heading="类型" class="heading" id="类型">
+                                    <div class="heading-before"></div>
+                                    <div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle" style="width:24px;max-width:100%">
+                                            <path d="M3 8L12 17L21 8"></path>
+                                        </svg></div>类型<div class="heading-after">...</div>
+                                </h3>
+                                <div class="heading-children">
+                                    <div>
+                                        <p>百信数字字体是自研设计字体，在金额展示场景使用，目前默认是常规字重，后续会增加自重类型以及字形优化。<br><span alt="UI设计_字体_类型.png" src="image/ui设计_字体_类型.png" class="internal-embed media-embed image-embed is-loaded"><img alt="UI设计_字体_类型.png" src="image/ui设计_字体_类型.png"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="heading-wrapper">
+                                <h3 data-heading="字号" class="heading" id="字号">
+                                    <div class="heading-before"></div>
+                                    <div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle" style="width:24px;max-width:100%">
+                                            <path d="M3 8L12 17L21 8"></path>
+                                        </svg></div>字号<div class="heading-after">...</div>
+                                </h3>
+                                <div class="heading-children">
+                                    <div>
+                                        <p>字号t为标签字号，p为正文字号、h为标题字号、s为特殊字号<br><span alt="UI设计_字体_字号.png" src="image/ui设计_字体_字号.png" class="internal-embed media-embed image-embed is-loaded"><img alt="UI设计_字体_字号.png" src="image/ui设计_字体_字号.png"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="heading-wrapper">
+                                <h3 data-heading="样式库" class="heading" id="样式库">
+                                    <div class="heading-before"></div>
+                                    <div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle" style="width:24px;max-width:100%">
+                                            <path d="M3 8L12 17L21 8"></path>
+                                        </svg></div>样式库<div class="heading-after">...</div>
+                                </h3>
+                                <div class="heading-children">
+                                    <div>
+                                        <p>字体样式做了统一字体样式库，文字排版都应按照字体库样式调用，如有字体缺失，或新增字体样式，需要统一维护同步。<br><span alt="UI设计_字体_样式.png" src="image/ui设计_字体_样式.png" class="internal-embed media-embed image-embed is-loaded"><img alt="UI设计_字体_样式.png" src="image/ui设计_字体_样式.png"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="heading-wrapper">
+                                <h3 data-heading="行高" class="heading" id="行高">
+                                    <div class="heading-before"></div>
+                                    <div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle" style="width:24px;max-width:100%">
+                                            <path d="M3 8L12 17L21 8"></path>
+                                        </svg></div>行高<div class="heading-after">...</div>
+                                </h3>
+                                <div class="heading-children">
+                                    <div>
+                                        <p>单行：默认行高<br>多行：1.5倍行高<br><span alt="UI设计_行高_多行.png" src="image/ui设计_行高_多行.png" class="internal-embed media-embed image-embed is-loaded"><img alt="UI设计_行高_多行.png" src="image/ui设计_行高_多行.png"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="heading-wrapper">
+                        <h2 data-heading="布局" class="heading" id="布局">
+                            <div class="heading-before"></div>
+                            <div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle" style="width:24px;max-width:100%">
+                                    <path d="M3 8L12 17L21 8"></path>
+                                </svg></div>布局<div class="heading-after">...</div>
+                        </h2>
+                        <div class="heading-children">
+                            <div class="heading-wrapper">
+                                <h3 data-heading="间距" class="heading" id="间距">
+                                    <div class="heading-before"></div>
+                                    <div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle" style="width:24px;max-width:100%">
+                                            <path d="M3 8L12 17L21 8"></path>
+                                        </svg></div>间距<div class="heading-after">...</div>
+                                </h3>
+                                <div class="heading-children">
+                                    <div>
+                                        <p>我们设定了多种固定的间距值，已经维护在前端样式库方便技术调用，也能尽量提供UI还原效率。<br><strong>模块间距</strong><br><span alt="UI设计_间距.png" src="image/ui设计_间距.png" class="internal-embed media-embed image-embed is-loaded"><img alt="UI设计_间距.png" src="image/ui设计_间距.png"></span><br><strong>元素间距</strong><br><span alt="UI设计_间距_元素.png" src="image/ui设计_间距_元素.png" class="internal-embed media-embed image-embed is-loaded"><img alt="UI设计_间距_元素.png" src="image/ui设计_间距_元素.png"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="heading-wrapper">
+                                <h3 data-heading="圆角" class="heading" id="圆角">
+                                    <div class="heading-before"></div>
+                                    <div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle" style="width:24px;max-width:100%">
+                                            <path d="M3 8L12 17L21 8"></path>
+                                        </svg></div>圆角<div class="heading-after">...</div>
+                                </h3>
+                                <div class="heading-children">
+                                    <div>
+                                        <p>常规容器的默认圆角是12px<br><span alt="UI设计_圆角.png" src="image/ui设计_圆角.png" class="internal-embed media-embed image-embed is-loaded"><img alt="UI设计_圆角.png" src="image/ui设计_圆角.png"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="heading-wrapper">
+                                <h3 data-heading="尺寸" class="heading" id="尺寸">
+                                    <div class="heading-before"></div>
+                                    <div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle" style="width:24px;max-width:100%">
+                                            <path d="M3 8L12 17L21 8"></path>
+                                        </svg></div>尺寸<div class="heading-after">...</div>
+                                </h3>
+                                <div class="heading-children">
+                                    <div>
+                                        <blockquote>
+                                            <p>仅规范组件的固定尺寸，不含动态尺寸（即响应式栅格规范），以 M 作为默认尺寸，Loading 加载」「Placeholder 占位」「Avatar 成员头像」「Badge 徽标」等组件为特殊场景，不在此讨论</p>
+                                        </blockquote>
+                                    </div>
+                                    <div>
+                                        <p><strong>图标</strong><br>h20、h32、h40、h48、h64、h80、h160</p>
+                                    </div>
+                                    <div style="overflow-x:auto">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>场景</th>
+                                                    <th>型号</th>
+                                                    <th>大小</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>系统icon小</td>
+                                                    <td>XS</td>
+                                                    <td>24px</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>系统icon大</td>
+                                                    <td>S</td>
+                                                    <td>32px</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>M</td>
+                                                    <td>40px</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>L</td>
+                                                    <td>48px</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>XL</td>
+                                                    <td>64px</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>XXL</td>
+                                                    <td>80PX</td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td>XXXL</td>
+                                                    <td>160PX</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="heading-wrapper">
+                        <h2 data-heading="自查" class="heading" id="自查">
+                            <div class="heading-before"></div>
+                            <div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle" style="width:24px;max-width:100%">
+                                    <path d="M3 8L12 17L21 8"></path>
+                                </svg></div>自查<div class="heading-after">...</div>
+                        </h2>
+                        <div class="heading-children">
+                            <div class="heading-wrapper">
+                                <h3 data-heading="设计自查表" class="heading" id="设计自查表">
+                                    <div class="heading-before"></div>
+                                    <div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle" style="width:24px;max-width:100%">
+                                            <path d="M3 8L12 17L21 8"></path>
+                                        </svg></div>设计自查表<div class="heading-after">...</div>
+                                </h3>
+                                <div class="heading-children">
+                                    <div>
+                                        <p>打造顺畅、统一的用户体验，设计自查表按照用户视角从“可用、好用、会用”三个维度进行分类，帮助更好的记忆。</p>
+                                    </div>
+                                    <div class="mod-footer"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar-right sidebar">
+            <div class="sidebar-gutter">
+                <div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon">
+                        <path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path>
+                        <path d="M10 4V20"></path>
+                        <path d="M4 7H7"></path>
+                        <path d="M4 10H7"></path>
+                        <path d="M4 13H7"></path>
+                    </svg></div>
+            </div>
+            <div class="sidebar-container">
+                <div class="sidebar-sizer">
+                    <div class="sidebar-content-positioner">
+                        <div class="sidebar-content">
+                            <div class="graph-view-wrapper">
+                                <div class="sidebar-section-header">Interactive Graph</div>
+                                <div class="graph-view-placeholder">
+                                    <div class="graph-view-container">
+                                        <div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon">
+                                                <line x1="7" y1="17" x2="17" y2="7"></line>
+                                                <polyline points="7 7 17 7 17 17"></polyline>
+                                            </svg></div><canvas id="graph-canvas" width="512px" height="512px"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tree-container outline-tree" data-depth="0">
+                                <div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div>
+                                <div class="tree-scroll-area">
+                                    <div class="tree-item" data-depth="1">
+                                        <div class="tree-item-contents"><a class="internal-link tree-item-link" href="#01_UI规范_边龙、秀子"><span class="tree-item-title">
+                                                    <p>01<em>UI规范</em>边龙、秀子</p>
+                                                </span></a></div>
+                                        <div class="tree-item-children">
+                                            <div class="tree-item mod-collapsible" data-depth="2">
+                                                <div class="tree-item-contents"><a class="internal-link tree-item-link" href="#色彩">
+                                                        <div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle">
+                                                                <path d="M3 8L12 17L21 8"></path>
+                                                            </svg></div><span class="tree-item-title">
+                                                            <p>色彩</p>
+                                                        </span>
+                                                    </a></div>
+                                                <div class="tree-item-children">
+                                                    <div class="tree-item" data-depth="3">
+                                                        <div class="tree-item-contents"><a class="internal-link tree-item-link" href="#主题色"><span class="tree-item-title">
+                                                                    <p>主题色</p>
+                                                                </span></a></div>
+                                                        <div class="tree-item-children"></div>
+                                                    </div>
+                                                    <div class="tree-item" data-depth="3">
+                                                        <div class="tree-item-contents"><a class="internal-link tree-item-link" href="#中性色"><span class="tree-item-title">
+                                                                    <p>中性色</p>
+                                                                </span></a></div>
+                                                        <div class="tree-item-children"></div>
+                                                    </div>
+                                                    <div class="tree-item" data-depth="3">
+                                                        <div class="tree-item-contents"><a class="internal-link tree-item-link" href="#字体颜色"><span class="tree-item-title">
+                                                                    <p>字体颜色</p>
+                                                                </span></a></div>
+                                                        <div class="tree-item-children"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tree-item mod-collapsible" data-depth="2">
+                                                <div class="tree-item-contents"><a class="internal-link tree-item-link" href="#字体系统">
+                                                        <div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle">
+                                                                <path d="M3 8L12 17L21 8"></path>
+                                                            </svg></div><span class="tree-item-title">
+                                                            <p>字体系统</p>
+                                                        </span>
+                                                    </a></div>
+                                                <div class="tree-item-children">
+                                                    <div class="tree-item" data-depth="3">
+                                                        <div class="tree-item-contents"><a class="internal-link tree-item-link" href="#类型"><span class="tree-item-title">
+                                                                    <p>类型</p>
+                                                                </span></a></div>
+                                                        <div class="tree-item-children"></div>
+                                                    </div>
+                                                    <div class="tree-item" data-depth="3">
+                                                        <div class="tree-item-contents"><a class="internal-link tree-item-link" href="#字号"><span class="tree-item-title">
+                                                                    <p>字号</p>
+                                                                </span></a></div>
+                                                        <div class="tree-item-children"></div>
+                                                    </div>
+                                                    <div class="tree-item" data-depth="3">
+                                                        <div class="tree-item-contents"><a class="internal-link tree-item-link" href="#样式库"><span class="tree-item-title">
+                                                                    <p>样式库</p>
+                                                                </span></a></div>
+                                                        <div class="tree-item-children"></div>
+                                                    </div>
+                                                    <div class="tree-item" data-depth="3">
+                                                        <div class="tree-item-contents"><a class="internal-link tree-item-link" href="#行高"><span class="tree-item-title">
+                                                                    <p>行高</p>
+                                                                </span></a></div>
+                                                        <div class="tree-item-children"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tree-item mod-collapsible" data-depth="2">
+                                                <div class="tree-item-contents"><a class="internal-link tree-item-link" href="#布局">
+                                                        <div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle">
+                                                                <path d="M3 8L12 17L21 8"></path>
+                                                            </svg></div><span class="tree-item-title">
+                                                            <p>布局</p>
+                                                        </span>
+                                                    </a></div>
+                                                <div class="tree-item-children">
+                                                    <div class="tree-item" data-depth="3">
+                                                        <div class="tree-item-contents"><a class="internal-link tree-item-link" href="#间距"><span class="tree-item-title">
+                                                                    <p>间距</p>
+                                                                </span></a></div>
+                                                        <div class="tree-item-children"></div>
+                                                    </div>
+                                                    <div class="tree-item" data-depth="3">
+                                                        <div class="tree-item-contents"><a class="internal-link tree-item-link" href="#圆角"><span class="tree-item-title">
+                                                                    <p>圆角</p>
+                                                                </span></a></div>
+                                                        <div class="tree-item-children"></div>
+                                                    </div>
+                                                    <div class="tree-item" data-depth="3">
+                                                        <div class="tree-item-contents"><a class="internal-link tree-item-link" href="#尺寸"><span class="tree-item-title">
+                                                                    <p>尺寸</p>
+                                                                </span></a></div>
+                                                        <div class="tree-item-children"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tree-item mod-collapsible" data-depth="2">
+                                                <div class="tree-item-contents"><a class="internal-link tree-item-link" href="#自查">
+                                                        <div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle">
+                                                                <path d="M3 8L12 17L21 8"></path>
+                                                            </svg></div><span class="tree-item-title">
+                                                            <p>自查</p>
+                                                        </span>
+                                                    </a></div>
+                                                <div class="tree-item-children">
+                                                    <div class="tree-item" data-depth="3">
+                                                        <div class="tree-item-contents"><a class="internal-link tree-item-link" href="#设计自查表"><span class="tree-item-title">
+                                                                    <p>设计自查表</p>
+                                                                </span></a></div>
+                                                        <div class="tree-item-children"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
