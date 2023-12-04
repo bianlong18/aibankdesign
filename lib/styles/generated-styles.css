@@ -83,3 +83,8 @@ body {
 
 .tree-container .tree-item-icon.collapse-icon{position: absolute;right: 10px;opacity: 0.5;}
 .graph-view-wrapper{display: none;}
+
+
+
+.longcon{display:flex;flex-warp:wrap;gap:10px;width:100%;justify-content:space-around;}
+.longcon span{height:160px;background:var(--background-modifier-active-hover);flex:1;display: flex; align-items: center; justify-content: center;font-weight: bold;border-radius:0.8em;}
